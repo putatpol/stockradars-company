@@ -47,7 +47,7 @@ function App() {
     setFilteredItems(filtered);
   }, [searchTerm, items]);
 
-
+  // column
   const columns = [
     {
       name: 'Name',
@@ -96,7 +96,7 @@ function App() {
       <div className="App">
         <Nav />
         <main>
-        
+
           <h1>Data-Table</h1>
           <h5>{numRows} Company</h5>
           <input type='text' placeholder='Search...' className='searchInput' value={searchTerm}
