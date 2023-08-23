@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Form.css';
 import Nav from './Nav';
+import Swal from 'sweetalert2';
 
 function Form() {
     const [ref, setRef] = useState('');
@@ -33,7 +34,12 @@ function Form() {
         }
 
         // แสดงข้อความเมื่อผู้ใช้กด Submit และผ่านเงื่อนไข
-        window.alert('ลงทะเบียนเรียบร้อยแล้ว');
+        Swal.fire({
+            icon: 'success',
+            title: 'ลงทะเบียนเรียบร้อยแล้ว',
+            showConfirmButton: false,
+            timer: 1500
+          })
     };
 
     useEffect(() => {
