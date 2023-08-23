@@ -1,0 +1,30 @@
+
+.formMain {
+    margin: 3vw auto;
+    padding: 2vw ;
+    max-width: 500px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(0, 81, 255, 0.09);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  .formMain input{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(241, 241, 241);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  
+  .formMain button{
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(241, 151, 219);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }

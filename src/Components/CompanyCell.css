@@ -1,0 +1,45 @@
+
+.company-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .company-en {
+    width: 100%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+  
+  .company-th {
+    width: 100%; 
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #929292;
+    text-align: left;
+    
+  }
+
+  .rdt_TableRow {
+    height: 60px; 
+  }
+
+  .rdt_TableHeadRow{
+    background-color: #fafafa !important;
+  }
+
+  .table{
+    margin-top: 20px;
+    
+  }
+
+  
+
+  /* ปรับแต่งสีพื้นหลังที่แสดงเนื้อหาเมื่อเมาส์ชี้ */
+  /* .company-cell:hover {
+    white-space: normal;
+    background-color:#d5e5f0; 
+  } */
